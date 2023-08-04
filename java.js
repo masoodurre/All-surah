@@ -21,17 +21,36 @@ function ibadat ()
     'الشمس','اللیل','الضحیٰ','الشرح','التین','العلق','القدر','البینہ','الزلزلہ',
     'العادیات','القارعہ','التکاثر','العصر','الہمزہ','الفیل','قریش','الماعون',
     'الکوثر','الکافرون','النصر','المسد','الإخلاص','الفلق','الناس'];
-   for ( let index=0; index < ibad; index++)
+   for ( let index=1; index <= ibad; index++)
    
-    one .innerHTML=slat[ibad] 
-
+    one .innerHTML=  " سورت " +" "+ "("+(slat [ibad])+")" +" " +"قرآن کریم کی " + index +" سورت ہے"
 
    
     
     
+    
 
     
 
 
     
+}
+
+let one1 =  document.getElementById('c') 
+
+function mahena(){
+
+ {
+   one1.innerHTML='';
+    const  mon = document.getElementById('month').value
+   
+    let my =['mon','January','February','March','April','May','June','July','July','August','September','October','November','December']
+   
+    
+
+       for (let index = 0; index <=mon; index++) 
+      one1.  innerHTML = my[mon];}
+            
+   
+  
 }

@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+   
     <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
         h1{
             font-family: Alvi Nastaleeq;
             color: rgb(19, 134, 195);
@@ -15,24 +22,54 @@
         }
         body{
             text-align: center;
+            background-image: url(bb.png);
+            background-size: cover;
+        
         }
         div{
             font-size: 35px;
-            color: rgb(19, 134, 195);}
+            color: rgb(19, 134, 195);
+            font-family: Alvi Nastaleeq;
+            border: solid 2px rgb(16, 131, 238) ;
+            width: 50%;
+            margin-left: 30%;
+            margin-right: 20%;
+            margin-top: 5%;
+            border-radius: 50px;
+            height: 80px;
+        
+        
+        }
+            
+            
+        
     </style>
 </head>
 <body>
     <h1>نمبر کے اندراج کی صورت میں قرآن کریم کی  سورت آپ کے سامنے ہوگی</h1>
     
 <input type="number" name="number" id="timer">
-<button onclick="ibadat()">Click</button>
+
+<button  class="btn btn-outline-primary" onclick="ibadat()">Click</button>
+
+<div id="n"> سورتیں یہاں دیکھیں</div>
 
 
 
 
 
 
-<div id="n"></div>
+
+
+
+
+<H1>Month Name</H1>
+<!-- <label for="Enter">Enter Month Name</label> -->
+ <input type="number"  id="month">
+ <button class="btn btn-outline-primary" onclick="mahena()">Click</button>
+
+<div><h2i id="c">مہینوں کے نام یہاں ملاحظہ فرمائیں</h2></div>
+
     <script src="java.js"></script>
 </body>
 </html>
