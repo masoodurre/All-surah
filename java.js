@@ -23,7 +23,7 @@ function ibadat ()
     'الکوثر','الکافرون','النصر','المسد','الإخلاص','الفلق','الناس'];
    for ( let index=1; index <= ibad; index++)
    
-    one .innerHTML=  " سورت " +" "+ "("+(slat [ibad])+")" +" " +"قرآن کریم کی " + index +" سورت ہے"
+    one .innerHTML=  " سورت " +" "+ "("+(slat [ibad])+")" +" " +"قرآن کریم کی " +"سورت نمبر"+ index +" ہے"
 
    
     
